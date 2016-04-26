@@ -1,0 +1,4 @@
+acme_paypal_adaptive_payments:
+    resource:   "@AcmePaypalAdaptivePaymentsBundle/Controller/"
+    type:       annotation
+    prefix:     /paypal/adaptive-payments

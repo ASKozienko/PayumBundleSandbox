@@ -42,6 +42,14 @@ payum:
         core:
             payum.template.layout: AcmePaymentBundle::layout.html.twig
 
+        paypal_adaptive_payments:
+            factory: paypal_adaptive_payments_json
+            user_id:  %paypal.adaptive_payments.user_id%
+            password:  %paypal.adaptive_payments.password%
+            signature: %paypal.adaptive_payments.signature%
+            application_id: %paypal.adaptive_payments.application_id%
+            sandbox: true
+
         paypal_masspay:
             factory: paypal_masspay
             username:  %paypal.masspay.username%

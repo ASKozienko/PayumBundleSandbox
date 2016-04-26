@@ -35,6 +35,10 @@ acme_paypal_express_checkout:
     resource: "@AcmePaypalExpressCheckoutBundle/Resources/config/routing.yml"
     prefix:   /
 
+acme_paypal_adaptive_payments:
+    resource: "@AcmePaypalAdaptivePaymentsBundle/Resources/config/routing.yml"
+    prefix:   /
+
 acme_stripe:
     resource: "@AcmeStripeBundle/Resources/config/routing.yml"
     prefix:   /
